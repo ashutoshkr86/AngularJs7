@@ -1,0 +1,26 @@
+{
+    "customer":[
+        {
+            "id":1,
+            "name":"Ashutosh",
+            "amount":500,
+            "status":true,
+            "image":"1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Manish",
+            "amount":100,
+            "status":true,
+            "image":"2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Nandu",
+            "amount":1100,
+            "status":true,
+            "image":"3.jpg"
+        }
+
+    ]
+}

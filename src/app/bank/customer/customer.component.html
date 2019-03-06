@@ -1,0 +1,30 @@
+<h3>Bank Custome</h3>
+
+
+<table border="1">
+<thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Amount</th>
+    <th>Status</th>
+    <th colspan="4">Action</th>
+  </tr>
+  <tbody>
+    <tr *ngFor="let c of allCustome">
+      <td>{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.amount}}</td>
+      <td>{{c.status}}</td>
+      <td><img src ="assets/{{c.image}}" width="25"></td>
+      <td >
+        <button>Del</button></td>
+       <td><button>Update</button></td> 
+       <td><button>Block</button></td>
+        <td> <button>Transact</button></td>
+      </td>
+    </tr>
+  </tbody>
+</thead>
+
+</table>
